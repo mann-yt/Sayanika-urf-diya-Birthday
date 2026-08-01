@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Sayanika ❤️</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Loading Screen -->
+    <div id="loader">
+        <h1>Preparing Something Special...</h1>
+    </div>
+
+    <!-- Main Website -->
+    <div id="main">
+
+        <div class="background"></div>
+        <div class="moon"></div>
+<div class="cloud cloud1"></div>
+<div class="cloud cloud2"></div>
+        <div class="stars">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+
+        <div class="hero">
+
+            <h3>✨ 09 September ✨</h3>
+
+            <h1>Happy Birthday</h1>
+
+            <h2>Sayanika Dutta ❤️</h2>
+
+            <p>
+                A small surprise made especially for you.
+            </p>
+
+            <button id="surpriseBtn">
+                Begin the Journey ✨
+            </button>
+
+        </div>
+
+        <!-- Scene 2: Beginning of the Journey -->
+<section id="journey" class="journey">
+
+    <div class="journey-content">
+
+        <p class="small-text">The journey begins...</p>
+
+        <h1>Every special person deserves</h1>
+
+        <h2>a little magic ✨</h2>
+
+        <p class="journey-message">
+            And today, this little corner of the internet
+            was made just for you.
+        </p>
+
+        <button id="continueBtn">
+            Continue ❤️
+        </button>
+
+    </div>
+
+</section>
+
+<!-- Scene 3: A Special Moment -->
+<section id="specialScene" class="special-scene">
+
+    <div class="special-content">
+
+        <p class="scene-number">
+            CHAPTER 01
+        </p>
+
+        <h1>
+            Before We Continue...
+        </h1>
+
+        <div class="gold-line"></div>
+
+        <p class="special-message">
+            Some people enter our lives quietly...
+            <br><br>
+            and somehow make their presence unforgettable.
+        </p>
+
+        <p class="special-highlight">
+            This little journey is for one of those people. ❤️
+        </p>
+
+        <button id="nextSceneBtn">
+            There's More ✨
+        </button>
+
+    </div>
+
+</section>
+
+<!-- Scene 4: Her Moment -->
+<section id="photoScene" class="photo-scene">
+
+    <div class="photo-content">
+
+        <p class="photo-chapter">
+            CHAPTER 02
+        </p>
+
+        <h1>A Moment For You</h1>
+
+        <div class="photo-frame">
+
+            <img src="images/photo1.jpg"
+                 alt="A special memory">
+
+        </div>
+
+        <h2>Sayanika ✨</h2>
+
+        <p class="photo-message">
+            Some moments deserve to be remembered
+            a little more beautifully.
+        </p>
+
+        <button id="memoriesBtn">
+            Enter the Memories ❤️
+        </button>
+
+    </div>
+
+</section>
+
+<!-- Scene 5: Memories Gallery -->
+<section id="memoriesScene" class="memories-scene">
+
+    <div class="memories-content">
+
+        <p class="memories-chapter">CHAPTER 03</p>
+
+        <h1>Little Pieces of Memories</h1>
+
+        <p class="memories-subtitle">
+            Ten moments. Ten little pieces of a beautiful story. ✨
+        </p>
+
+        <div class="gallery-container">
+
+            <button class="gallery-arrow" id="prevPhoto">
+                ❮
+            </button>
+
+            <div class="gallery-main">
+
+                <div class="gallery-photo-frame">
+
+                    <img
+                        id="galleryPhoto"
+                        src="images/photo1.jpg"
+                        alt="Memory">
+
+                </div>
+
+                <div class="gallery-info">
+
+                    <span id="photoCounter">
+                        01 / 10
+                    </span>
+
+                </div>
+
+            </div>
+
+            <button class="gallery-arrow" id="nextPhoto">
+                ❯
+            </button>
+
+        </div>
+
+
+        <!-- Thumbnail Photos -->
+
+        <div class="gallery-thumbnails">
+
+            <img src="images/photo1.jpg" class="thumbnail active" data-index="0" alt="">
+            <img src="images/photo2.jpg" class="thumbnail" data-index="1" alt="">
+            <img src="images/photo3.jpg" class="thumbnail" data-index="2" alt="">
+            <img src="images/photo4.jpg" class="thumbnail" data-index="3" alt="">
+            <img src="images/photo5.jpg" class="thumbnail" data-index="4" alt="">
+            <img src="images/photo6.jpg" class="thumbnail" data-index="5" alt="">
+            <img src="images/photo7.jpg" class="thumbnail" data-index="6" alt="">
+            <img src="images/photo8.jpg" class="thumbnail" data-index="7" alt="">
+            <img src="images/photo9.jpg" class="thumbnail" data-index="8" alt="">
+            <img src="images/photo10.jpg" class="thumbnail" data-index="9" alt="">
+
+        </div>
+
+
+        <button id="galleryContinueBtn">
+            Continue the Story ✨
+        </button>
+
+    </div>
+
+</section>
+<!-- =====================================
+     SCENE 6: A LETTER FOR YOU
+===================================== -->
+
+<section id="letterScene" class="letter-scene">
+
+    <div class="letter-content">
+
+        <p class="letter-chapter">
+            CHAPTER 04
+        </p>
+
+        <h1>Something I Wanted To Say...</h1>
+
+        <p class="letter-intro">
+            Some things are easier to write than to say. 💫
+        </p>
+
+
+        <!-- Envelope -->
+
+        <div class="envelope-container" id="envelope">
+
+            <div class="envelope">
+
+                <div class="envelope-back"></div>
+
+                <div class="letter-preview">
+                    <span>For Sayanika ❤️</span>
+                </div>
+
+                <div class="envelope-front"></div>
+
+                <div class="envelope-flap"></div>
+
+            </div>
+
+        </div>
+
+
+        <p class="envelope-instruction">
+            Tap the envelope to open it 💌
+        </p>
+
+
+        <!-- Hidden Letter -->
+
+        <div class="letter-paper" id="letterPaper">
+
+            <p class="letter-small-title">
+                A little note for you...
+            </p>
+
+            <h2>Dear Sayanika,</h2>
+
+            <div class="letter-message">
+
+    <p>
+        I don't really know where to start this, because there are some
+        things that are much easier to feel than to put into words.
+    </p>
+
+    <p>
+        Maybe you never expected me to make something like this.
+        And maybe this whole website is a little too much 😅,
+        but I wanted to do something different for your birthday —
+        something that wouldn't disappear after a single message or a story.
+    </p>
+
+    <p>
+        No matter how much time passes or how life changes,
+        there are some people and some memories that simply stay
+        somewhere in your mind. You're one of those people for me.
+    </p>
+
+    <p>
+        I don't expect anything from this. I just wanted September 9th
+        to have a tiny corner of the internet that belongs to you.
+    </p>
+
+    <p>
+        I genuinely hope this year brings you peace, happiness, success,
+        new memories, and everything you've been working towards.
+    </p>
+
+    <p>
+        Keep smiling. Keep growing. And most importantly,
+        keep being Sayanika.
+    </p>
+
+    <p class="letter-ending">
+        Happy Birthday, Sayanika urf Diya. ❤️
+    </p>
+
+</div>
+
+            </div>
+
+            <button id="letterContinueBtn">
+                One Last Surprise ✨
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =====================================
+     SCENE 7 : FINAL WISH
+===================================== -->
+
+<section id="finalScene" class="final-scene">
+
+    <div class="final-content">
+
+        <p class="final-chapter">
+            CHAPTER 05
+        </p>
+
+        <h1>One Last Wish... ❤️</h1>
+
+        <div class="final-message">
+
+            <p>
+                Dear Sayanika (Diya),
+            </p>
+
+            <p>
+                If you've reached this point, thank you for taking this little journey with me.
+                Every page of this website was made with love, care and lots of smiles.
+            </p>
+
+            <p>
+                You are the reason behind so many of my smiles, and I truly hope your beautiful smile never fades.
+            </p>
+
+            <p>
+                May every dream you dream become reality.
+                May every wish you make come true.
+                May life bless you with happiness, peace, success and beautiful memories.
+            </p>
+
+            <p>
+                No matter where life takes us,
+                I will always wish the very best for you.
+            </p>
+
+            <h2>You truly mean a lot to me ❤️</h2>
+
+            <p>
+                Happy Birthday once again,
+                Sayanika (Diya). 🎂❤️
+            </p>
+
+            <p>
+                Keep smiling...
+                Keep shining...
+                Keep being the wonderful person you are.
+            </p>
+
+            <h3>— Mann ❤️</h3>
+
+        </div>
+
+    </div>
+
+</section>
+
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

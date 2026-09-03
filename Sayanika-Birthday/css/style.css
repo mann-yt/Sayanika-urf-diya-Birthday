@@ -1628,3 +1628,381 @@ scroll-behavior:auto;
         padding:25px 20px;
     }
 }
+
+/* =========================================
+   FINAL MOBILE RESPONSIVE DESIGN
+   ========================================= */
+
+@media (max-width:600px){
+
+    /* =========================
+       HERO / OPENING
+       ========================= */
+
+    .hero{
+        width:92%;
+        max-width:420px;
+        padding:32px 18px;
+        border-radius:22px;
+    }
+
+    .hero h1{
+        font-size:clamp(42px,12vw,52px);
+        line-height:1.05;
+    }
+
+    .hero h2{
+        font-size:26px;
+        line-height:1.2;
+        margin-top:14px;
+    }
+
+    .hero p{
+        font-size:16px;
+        line-height:1.5;
+    }
+
+    .hero button{
+        font-size:16px;
+        padding:13px 24px;
+        margin-top:24px;
+    }
+
+
+    /* =========================
+       MOON + CLOUDS
+       ========================= */
+
+    .moon{
+        width:85px;
+        height:85px;
+        top:45px;
+        right:25px;
+    }
+
+    .cloud1{
+        transform:scale(.7);
+        transform-origin:left center;
+    }
+
+    .cloud2{
+        transform:scale(.65);
+        transform-origin:left center;
+    }
+
+
+    /* =========================
+       SCENE 2 - JOURNEY
+       ========================= */
+
+    .journey{
+        overflow-y:auto;
+        overflow-x:hidden;
+        align-items:flex-start;
+    }
+
+    .journey-content{
+        width:94%;
+        padding:55px 15px 40px;
+        margin:auto;
+    }
+
+    .journey .small-text{
+        font-size:13px;
+        letter-spacing:4px;
+        margin-bottom:18px;
+    }
+
+    .journey h1{
+        font-size:clamp(46px,13vw,58px);
+        line-height:1.05;
+        margin-bottom:8px;
+    }
+
+    .journey h2{
+        font-size:27px;
+        line-height:1.25;
+        margin-bottom:20px;
+    }
+
+    .journey-message{
+        width:100%;
+        font-size:16px;
+        line-height:1.7;
+    }
+
+    #continueBtn{
+        margin-top:25px;
+        padding:13px 30px;
+        font-size:15px;
+    }
+
+
+    /* =========================
+       SCENE 3 - SPECIAL MOMENT
+       ========================= */
+
+    .special-scene{
+        overflow-y:auto;
+        overflow-x:hidden;
+        align-items:flex-start;
+    }
+
+    .special-content{
+        width:94%;
+        padding:55px 15px 40px;
+        margin:auto;
+    }
+
+    .scene-number{
+        font-size:12px;
+        letter-spacing:5px;
+        margin-bottom:15px;
+    }
+
+    .special-scene h1{
+        font-size:clamp(46px,13vw,58px);
+        line-height:1.05;
+    }
+
+    .special-message{
+        font-size:16px;
+        line-height:1.7;
+    }
+
+    .special-highlight{
+        font-size:30px;
+        line-height:1.2;
+        margin-top:22px;
+    }
+
+    #nextSceneBtn{
+        margin-top:25px;
+        padding:13px 30px;
+        font-size:15px;
+    }
+
+
+    /* =========================
+       SCENE 4 - HER MOMENT
+       ========================= */
+
+    .photo-scene{
+        overflow-y:auto;
+        overflow-x:hidden;
+        align-items:flex-start;
+    }
+
+    .photo-content{
+        width:94%;
+        padding:40px 10px 35px;
+        margin:auto;
+    }
+
+    .photo-chapter{
+        font-size:11px;
+        letter-spacing:5px;
+    }
+
+    .photo-scene h1{
+        font-size:clamp(42px,12vw,50px);
+        line-height:1.05;
+    }
+
+    .photo-frame{
+        width:min(220px,70vw);
+        height:min(275px,86vw);
+    }
+
+    .photo-scene h2{
+        font-size:30px;
+        line-height:1.15;
+        margin-top:15px;
+    }
+
+    .photo-message{
+        width:100%;
+        font-size:15px;
+        line-height:1.6;
+    }
+
+    #memoriesBtn{
+        margin-top:15px;
+        padding:12px 28px;
+        font-size:14px;
+    }
+
+
+    /* =========================
+       SCENE 5 - MEMORIES
+       ========================= */
+
+    .memories-scene{
+        overflow-y:auto;
+        overflow-x:hidden;
+        align-items:flex-start;
+    }
+
+    .memories-content{
+        width:96%;
+        padding:35px 8px 30px;
+        margin:auto;
+    }
+
+    .memories-chapter{
+        font-size:10px;
+        letter-spacing:5px;
+    }
+
+    .memories-scene h1{
+        font-size:38px;
+        line-height:1.05;
+    }
+
+    .memories-subtitle{
+        font-size:13px;
+        line-height:1.5;
+    }
+
+    .gallery-container{
+        gap:8px;
+    }
+
+    .gallery-photo-frame{
+        width:210px;
+        height:270px;
+    }
+
+    .gallery-arrow{
+        width:38px;
+        height:38px;
+        font-size:18px;
+        flex-shrink:0;
+    }
+
+    .thumbnail{
+        width:42px;
+        height:49px;
+    }
+
+    #galleryContinueBtn{
+        margin-top:10px;
+        padding:11px 26px;
+        font-size:13px;
+    }
+
+
+    /* =========================
+       SCENE 6 - LETTER
+       ========================= */
+
+    .letter-scene{
+        padding:55px 0 40px;
+        overflow-y:auto;
+        overflow-x:hidden;
+        align-items:flex-start;
+    }
+
+    .letter-content{
+        width:94%;
+        padding:15px 10px 35px;
+        margin:auto;
+    }
+
+    .letter-scene h1{
+        font-size:40px;
+        line-height:1.05;
+    }
+
+    .letter-intro{
+        font-size:14px;
+        line-height:1.5;
+    }
+
+    .envelope-container{
+        width:270px;
+        height:180px;
+        margin:40px auto 30px;
+    }
+
+    .letter-preview{
+        font-size:25px;
+    }
+
+    .letter-paper{
+        width:100%;
+        padding:25px 20px;
+    }
+
+    .letter-paper h2{
+        font-size:36px;
+    }
+
+    .letter-message{
+        font-size:14px;
+        line-height:1.75;
+    }
+
+    .letter-ending{
+        font-size:25px !important;
+    }
+
+    #letterContinueBtn{
+        font-size:14px;
+        padding:12px 28px;
+    }
+
+
+    /* =========================
+       SCENE 7 - FINAL WISH
+       ========================= */
+
+    .final-scene{
+        overflow-y:auto;
+        overflow-x:hidden;
+        align-items:flex-start;
+        padding:50px 0 40px;
+        box-sizing:border-box;
+    }
+
+    .final-content{
+        width:94%;
+        max-width:600px;
+        padding:20px 12px 40px;
+        margin:auto;
+    }
+
+    .final-chapter{
+        font-size:11px;
+        letter-spacing:5px;
+    }
+
+    .final-scene h1{
+        font-size:clamp(44px,12vw,54px);
+        line-height:1.05;
+        margin-bottom:22px;
+    }
+
+    .final-message{
+        width:100%;
+        font-size:16px;
+        line-height:1.7;
+    }
+
+    .final-message p{
+        font-size:16px;
+        line-height:1.7;
+        margin-bottom:18px;
+    }
+
+    .final-message h2{
+        font-size:27px;
+        line-height:1.25;
+        margin:25px 0 15px;
+    }
+
+    .final-message h3{
+        font-size:22px;
+        margin-top:25px;
+    }
+}
